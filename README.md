@@ -65,5 +65,5 @@ I am currently developing a modular "Golden Reference" motherboard for the nRF53
 ---
 
 ## 📧 Contact
-- **LinkedIn:** [Insert Link]
-- **Email:** [Insert Email]
+- **LinkedIn:** www.linkedin.com/in/michael-miller-4b3918201
+- **Email:** mmille7497@gmail.com

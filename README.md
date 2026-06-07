@@ -52,7 +52,7 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
     - **Issue:** Encountered configuration issues when setting up STM32WB through STM32CubeIDE.
     - **Root Cause:** Inadequate via-to-pour clearance in the initial layout.
     - **Resolution:** Validated via continuity testing.
-    - **Future Iteration:** Increased clearance rules in Altium to prevent shorts in Rev B.
+    - **Future Iteration:** Increased clearance rules in KiCad to prevent shorts in Rev B.
 
 #### Status
 - **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture for Rev.

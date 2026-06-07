@@ -34,7 +34,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 
 ### 2. FFT-Based LED Strip Controller
-*A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of the LED Strip.*
+*A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of an LED Strip.*
 
 #### Overview
 - **Objective:** Design an audio based system for reading audio signals, deriving the base frequencies, and changing the color of LEDs on the strip.

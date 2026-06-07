@@ -63,7 +63,8 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on miniaturization and high SNR for biosignals.
-- **CAD/Layout:** [<img src="assets/EMG1_TOP.png" width="400">](assets/EMG1_TOP.png)
+- **CAD/Layout:**
+                  [<img src="assets/EMG1_TOP.png" width="400">](assets/EMG1_TOP.png)
                   [<img src="assets/EMG1_BOTTOM.png" width="400">](assets/EMG1_BOTTOM.png)
                   [<img src="assets/EMG1_Layout.png" width="400">](assets/EMG1_Layout.png)
 - **Debug Log / Lessons Learned:**

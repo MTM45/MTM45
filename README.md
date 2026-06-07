@@ -27,7 +27,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
                   [<img src="assets/Fidget_Layout.png" width="400">](assets/Fidget_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** None yet, awaiting assembly.
-    - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations.
+    - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. Connect to applications.
 
 #### Status
 - **Current Phase:** Design verification to ensure functionality before intended final revision.

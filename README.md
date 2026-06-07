@@ -42,7 +42,7 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on filtering out sound for ease of signal processing and FFT analysis.
-          [<img src="assets/LED_1_TOP.png" width="400">](assets/LED1_TOP.png) [<img src="assets/LED_Layout.png" width="400">](assets/LED_Layout.png)
+          [<img src="assets/LED1_TOP.png" width="400">](assets/LED1_TOP.png) [<img src="assets/LED_Layout.png" width="400">](assets/LED_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Could detect target device when programming, but could not flash to the core.
     - **Root Cause:** Inadequate pad-to-pour clearance in the initial layout - short between GND and SWDCLK.

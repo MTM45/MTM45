@@ -23,7 +23,7 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on miniaturization and high SNR for biosignals.
-- **CAD/Layout:** ![Top](C:\Users\mmill\OneDrive\Documents\GITPAGE\EMG1_TOP.png) ![Bottom] (C:\Users\mmill\OneDrive\Documents\GITPAGE\EMG1_BOTTOM.png)
+- **CAD/Layout:** ![Top](assets\EMG1_TOP.png) ![Bottom] (assets\EMG1_BOTTOM.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Encountered a short on the SWDCLK line during bring-up.
     - **Root Cause:** Inadequate via-to-pour clearance in the initial layout.

@@ -23,7 +23,7 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on filtering out sound for ease of signal processing and FFT analysis.
-- **CAD/Layout:** ![Design](assets/LED1_TOP.png)
+- **CAD/Layout:** ![Design](assets/LED1_TOP.png) ![Design](assets/LED_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Could detect target device when programming, but could not flash to the core.
     - **Root Cause:** Inadequate pad-to-pour clearance in the initial layout - short between GND and SWDCLK.
@@ -44,7 +44,9 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on miniaturization and high SNR for biosignals.
-- **CAD/Layout:** ![Top](assets/EMG1_TOP.png) ![Bottom](assets/EMG1_BOTTOM.png)
+- **CAD/Layout:** ![Top](assets/EMG1_TOP.png)
+                  ![Bottom](assets/EMG1_BOTTOM.png)
+                  ![Layout](assets/EMG1_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Encountered configuration issues when setting up STM32WB through STM32CubeIDE.
     - **Root Cause:** Inadequate via-to-pour clearance in the initial layout.

@@ -14,7 +14,27 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 
 ## 🚀 Featured Projects
 
-### 1. Wireless EMG Wearable
+### 1. FFT-Based LED Strip Controller
+*A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of the LED Strip.*
+
+#### Overview
+- **Objective:** Design an audio based system for reading audio signals, deriving the base frequencies, and changing the color of LEDs on the strip.
+- **Key Components:** nRF5340 MDBT53-1M SOC, analog front end, buck converter, LDO.
+
+#### Engineering Process
+- **Design Philosophy:** Focused on filtering out sound for ease of signal processing and FFT analysis.
+- **CAD/Layout:** ![Design](assets/LED1_TOP.png)
+- **Debug Log / Lessons Learned:**
+    - **Issue:** Could detect target device when programming, but could not flash to the core.
+    - **Root Cause:** Inadequate via-to-pour clearance in the initial layout. ![Design](assets/LED1_short.png)
+    - **Resolution:** Validated via continuity testing.
+    - **Future Iteration:** Relocate GND via near SWDCLK on MDBT53-1M pads.
+
+#### Status
+- **Current Phase:** Power/digital architecture validated. AFE and firmware validated on breadboard for full LED control. Redesign to relocate via and pour profile.
+
+
+### 2. Wireless EMG Wearable
 *A compact, low-power wearable device for EMG signal acquisition.*
 
 #### Overview

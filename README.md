@@ -71,12 +71,12 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
                   [<img src="assets/EMG1_Layout.png" width="400">](assets/EMG1_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Encountered configuration issues when setting up STM32WB through STM32CubeIDE.
-    - **Root Cause:** Inadequate via-to-pour clearance in the initial layout.
+    - **Root Cause:** Inadequate reflow on STM32 during assembly.
     - **Resolution:** Validated via continuity testing.
-    - **Future Iteration:** Increased clearance rules in KiCad to prevent shorts in Rev B.
+    - **Future Iteration:** Design around reflow, select another chip.
 
 #### Status
-- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture.
+- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning for ease of assembly.
 
 ---
 

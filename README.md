@@ -23,7 +23,7 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focus on design validation to improve the form factor in later iterations.
-- **CAD/Layout:** ![Design](assets/2-channel_EMG_V1.png)
+                  ![Design](assets/2-channel_EMG_V1.png)
                   ![Design2](assets/Fidget_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** None yet, awaiting assembly.

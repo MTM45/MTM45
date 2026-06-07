@@ -23,7 +23,8 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 
 #### Engineering Process
 - **Design Philosophy:** Focused on filtering out sound for ease of signal processing and FFT analysis.
-- **CAD/Layout:** ![Design](assets/LED1_TOP.png)
+- **CAD/Layout:**
+                  ![Design](assets/LED1_TOP.png)
                   ![Design](assets/LED_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Could detect target device when programming, but could not flash to the core.

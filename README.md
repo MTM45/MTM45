@@ -26,7 +26,8 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 - **CAD/Layout:** ![Design](assets/LED1_TOP.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Could detect target device when programming, but could not flash to the core.
-    - **Root Cause:** Inadequate via-to-pour clearance in the initial layout. ![Design](assets/LED1_short.png)
+    - **Root Cause:** Inadequate pad-to-pour clearance in the initial layout - short between GND and SWDCLK.
+      ![Design](assets/LED1_short.png)
     - **Resolution:** Validated via continuity testing.
     - **Future Iteration:** Relocate GND via near SWDCLK on MDBT53-1M pads.
 

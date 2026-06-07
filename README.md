@@ -48,7 +48,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
     - **Root Cause:** Inadequate pad-to-pour clearance in the initial layout - short between GND and SWDCLK.
       [<img src="assets/LED1_short.png" width="400">](assets/LED1_short.png)
     - **Resolution:** Validated via continuity testing.
-    - **Future Iteration:** Relocate GND via near SWDCLK on MDBT53-1M pads.
+    - **Future Iteration:** Relocate GND via near SWDCLK on MDBT53-1M pads, reduce GND pour coverage near pads.
 
 #### Status
 - **Current Phase:** Power/digital architecture validated. AFE and firmware validated on breadboard for full LED control. Redesign to relocate via and pour profile.

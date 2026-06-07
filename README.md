@@ -1,6 +1,6 @@
 # Engineering Portfolio: Mike Miller
 
-Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sensor integration, embedded systems, and PCB design. This page showcases my R&D process, design methodology, and debug logs.
+Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sensor integration and PCB design. This page showcases my R&D process, design methodology, and debug logs.
 
 ---
 

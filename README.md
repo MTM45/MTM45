@@ -25,13 +25,13 @@ Welcome to my portfolio! I am a Hardware Design Engineer focused on wearable sen
 - **Design Philosophy:** Focused on miniaturization and high SNR for biosignals.
 - **CAD/Layout:** ![Top](assets/EMG1_TOP.png) ![Bottom](assets/EMG1_BOTTOM.png)
 - **Debug Log / Lessons Learned:**
-    - **Issue:** Encountered a short on the SWDCLK line during bring-up.
+    - **Issue:** Encountered configuration issues when setting up STM32WB through STM32CubeIDE.
     - **Root Cause:** Inadequate via-to-pour clearance in the initial layout.
     - **Resolution:** Validated via continuity testing.
     - **Future Iteration:** Increased clearance rules in Altium to prevent shorts in Rev B.
 
 #### Status
-- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture for Rev B.
+- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture for Rev.
 
 ---
 

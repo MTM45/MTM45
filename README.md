@@ -14,7 +14,26 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
 
 ## 🚀 Featured Projects
 
-### 1. FFT-Based LED Strip Controller
+### 1. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
+*An initial prototype of a neural-feedback system for reading movement/muscle data and notifying the user of biomechanical events*
+
+#### Overview
+- **Objective:** Design a wireless, multi-channel EMG to enable any user to access every-day movement patterns.
+- **Key Components:** nRF5340 MDBT53-1M SOC, USB, rechargeable Li-Ion battery.
+
+#### Engineering Process
+- **Design Philosophy:** Focus on design validation to improve the form factor in later iterations.
+- **CAD/Layout:** ![Design](assets/2-CHannel_EMG_V1.png)
+                  ![Design2](assets/Fidget_Layout.png)
+- **Debug Log / Lessons Learned:**
+    - **Issue:** None yet, awaiting assembly.
+    - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations.
+
+#### Status
+- **Current Phase:** Design verification to ensure functionality before intended final revision.
+
+
+### 2. FFT-Based LED Strip Controller
 *A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of the LED Strip.*
 
 #### Overview
@@ -36,7 +55,7 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
 - **Current Phase:** Power/digital architecture validated. AFE and firmware validated on breadboard for full LED control. Redesign to relocate via and pour profile.
 
 
-### 2. Wireless EMG Wearable
+### 3. Wireless EMG Wearable
 *A compact, low-power wearable device for EMG signal acquisition.*
 
 #### Overview

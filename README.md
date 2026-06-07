@@ -76,12 +76,12 @@ Welcome to my portfolio. I am a Hardware Design Engineer focused on wearable sen
     - **Future Iteration:** Increased clearance rules in KiCad to prevent shorts in Rev B.
 
 #### Status
-- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture for Rev.
+- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning to modular "Core/Carrier" architecture.
 
 ---
 
 ## 🔍 Current R&D: "Golden Reference" Platform
-I am currently developing a modular "Golden Reference" motherboard for the nRF5340. 
+I am currently developing a modular "Golden Reference" motherboard for the nRF5340 MDBT53-1M module. 
 * **Goal:** To decouple digital bring-up from complex sensor/analog integration.
 * **Architecture:** Core board (MCU/Power) + Carrier board (AFEs/Sensors).
 * **Expected Outcome:** A proven baseline for all future wearable sensor iterations.

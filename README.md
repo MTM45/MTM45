@@ -80,8 +80,8 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 ---
 
-## 🔍 Current R&D: "Golden Reference" Platform
-I am currently developing a modular "Golden Reference" motherboard for the nRF5340 MDBT53-1M module. 
+## 🔍 Current R&D: nRF5340 module Platform
+I am currently developing a modular reference motherboard for the nRF5340 MDBT53-1M module. 
 * **Goal:** To decouple digital bring-up from complex sensor/analog integration.
 * **Architecture:** Core board (MCU/Power) + Carrier board (AFEs/Sensors).
 * **Expected Outcome:** A proven baseline for all future wearable sensor iterations.

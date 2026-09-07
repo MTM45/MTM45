@@ -14,7 +14,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 ## 🚀 Featured Projects
 
-### 1. Wearable EMG sticker for wireless performance tracking and muscle assymetry.
+### 1. Wearable EMG sticker for wireless performance tracking and muscle asymmetry
 *Redesign of previous wearable design for a more flexible form factor across muscle groups*
 
 #### Overview

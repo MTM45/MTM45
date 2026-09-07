@@ -52,7 +52,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
     - **Future Iteration:** Improve flexibility by making the entire board a flex PCB with rigid fills as needed for BGA components.
 
 #### Status
-- **Current Phase:** Design verification to ensure functionality before intended final revision.
+- **Current Phase:** In transit from manufacturer, needs bring-up and verification. A companion iOS app is in development in parallel.
 
 ### 2. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
 *An initial prototype of a neural-feedback system for reading movement/muscle data and notifying the user of biomechanical events*
@@ -72,7 +72,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
     - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. WIrelessly connect to applications.
 
 #### Status
-- **Current Phase:** Design verification to ensure functionality before intended final revision.
+- **Current Phase:** Design verified to ensure functionality before intended final revision.
 
 
 ### 3. FFT-Based LED Strip Controller
@@ -117,18 +117,6 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
     - **Resolution:** Validated via continuity testing.
     - **Future Iteration:** Design around reflow, select another chip.
 
-#### Status
-- **Current Phase:** Architecture validated. Analog AFE performance verified; digital core transitioning for ease of assembly.
-
----
-
-## 🔍 Current R&D: nRF5340 module Platform
-I am currently developing a modular reference motherboard for the nRF5340 MDBT53-1M module. 
-* **Goal:** To decouple digital bring-up from complex sensor/analog integration.
-* **Architecture:** Core board (MCU/Power) + Carrier board (AFEs/Sensors).
-* **Expected Outcome:** A proven baseline for all future wearable sensor iterations.
-
----
 
 ## 📧 Contact
 - **LinkedIn:** www.linkedin.com/in/michael-miller-4b3918201

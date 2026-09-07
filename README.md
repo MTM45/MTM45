@@ -5,7 +5,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 ---
 
 ## 🛠 Skills & Competencies
-* **PCB Design:** KiCad (Schematic Capture, Layout, DFM)
+* **PCB Design:** KiCad, Altium Designer(Schematic Capture, Layout, DFM)
 * **Embedded Systems:** nRF5340, STM32WB, BLE Firmware integration
 * **Analog/Mixed Signal:** ECG/EMG AFE designs, Audio/Optical systems
 * **Instrumentation:** Oscilloscopes, Multimeters, Logic Analyzers
@@ -15,6 +15,27 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 ## 🚀 Featured Projects
 
 ### 1. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
+*Redesign of previous wearable design for a more flexible form factor across muscle groups*
+
+#### Overview
+- **Objective:** Design a wireless EMG sticker to enable any user to access physical activity data.
+- **Key Components:** ADI MAX86178, nRF5340 MDBT53V-1M SOC, USB, rechargeable Li-Ion battery, nickel-free gold electrodes.
+
+#### Engineering Process
+- **Design Philosophy:** Focus on a flexible "sticker" design to easily place on any muscle belly for improved performance tracking and muscle asymmetry detection on opposite limbs.
+                  [<img src="assets/AX_EMG_REV1_2D.png" width="400">](assets/AX_EMG_REV1_2D.png)
+                  [<img src="assets/AX_EMG_REV1_FAB_TOP.png" width="400">](assets/AX_EMG_REV1_FAB_TOP.png)
+                  [<img src="assets/AX_EMG_REV1_FAB_BOTTOM.png" width="400">](assets/AX_EMG_REV1_FAB_BOTTOM.png)
+                  [<img src="assets/AX_EMG_ARM_FAB.png" width="400">](assets/AX_EMG_ARM_FAB.png)
+
+- **Debug Log / Lessons Learned:**
+    - **Issue:** None yet, in transit after fabrication.
+    - **Future Iteration:** Improve flexibility by making the entire board a flex PCB with rigid fills as needed for BGA components.
+
+#### Status
+- **Current Phase:** Design verification to ensure functionality before intended final revision.
+
+### 2. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
 *An initial prototype of a neural-feedback system for reading movement/muscle data and notifying the user of biomechanical events*
 
 #### Overview
@@ -26,14 +47,16 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
                   [<img src="assets/2-channel_EMG_V1.png" width="400">](assets/2-channel_EMG_V1.png)
                   [<img src="assets/Fidget_Layout.png" width="400">](assets/Fidget_Layout.png)
 - **Debug Log / Lessons Learned:**
-    - **Issue:** None yet, awaiting assembly.
+    - **Issue:** Button is not readable.
+    - **Root Cause:** Self-assembly at hot-air bench was not sufficient for making electrical contact between the nRF5240 Module and the related button detection GPIO.
+    - **Resolution:** Solder reflow with hot plate and hot air created the proper reflow profile at the module GPIO pin.
     - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. WIrelessly connect to applications.
 
 #### Status
 - **Current Phase:** Design verification to ensure functionality before intended final revision.
 
 
-### 2. FFT-Based LED Strip Controller
+### 3. FFT-Based LED Strip Controller
 *A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of an LED Strip.*
 
 #### Overview
@@ -54,7 +77,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 - **Current Phase:** Power/digital architecture validated. AFE and firmware validated on breadboard for full LED control. Redesign to relocate via and pour profile.
 
 
-### 3. Wireless EMG Wearable
+### 4. Wireless EMG Wearable
 *A compact, low-power wearable device for EMG signal acquisition.*
 
 #### Overview

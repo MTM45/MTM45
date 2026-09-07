@@ -14,7 +14,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 ## 🚀 Featured Projects
 
-### 1. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
+### 1. Wearable EMG sticker for wireless performance tracking and muscle assymetry.
 *Redesign of previous wearable design for a more flexible form factor across muscle groups*
 
 #### Overview
@@ -23,10 +23,29 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 #### Engineering Process
 - **Design Philosophy:** Focus on a flexible "sticker" design to easily place on any muscle belly for improved performance tracking and muscle asymmetry detection on opposite limbs.
-                  [<img src="assets/AX_EMG_REV1_2D.png" width="400">](assets/AX_EMG_REV1_2D.png)
-                  [<img src="assets/AX_EMG_REV1_FAB_TOP.png" width="400">](assets/AX_EMG_REV1_FAB_TOP.png)
-                  [<img src="assets/AX_EMG_REV1_FAB_BOTTOM.png" width="400">](assets/AX_EMG_REV1_FAB_BOTTOM.png)
-                  [<img src="assets/AX_EMG_ARM_FAB.png" width="400">](assets/AX_EMG_ARM_FAB.png)
+<table>
+<tr>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_2D.png"><img src="assets/AX_EMG_REV1_2D.png" width="400"></a><br>
+  <sub>4-layer layout, 25 × 40 mm — top copper and silkscreen.</sub>
+</td>
+<td width="50%">
+  <a href="assets/AX_EMG_ARM_FAB.png"><img src="assets/AX_EMG_ARM_FAB.png" width="400"></a><br>
+  <sub>Flex electrode arm — nickel-free gold skin pad.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_FAB_TOP.png"><img src="assets/AX_EMG_REV1_FAB_TOP.png" width="400"></a><br>
+  <sub>Fabricated board, top — MAX86178 AFE, nRF5340 module, USB-C charging.</sub>
+</td>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_FAB_BOTTOM.png"><img src="assets/AX_EMG_REV1_FAB_BOTTOM.png" width="400"></a><br>
+  <sub>Fabricated board, bottom — electrode pad and battery contacts.</sub>
+</td>
+</tr>
+</table>
+
 
 - **Debug Log / Lessons Learned:**
     - **Issue:** None yet, in transit after fabrication.

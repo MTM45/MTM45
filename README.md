@@ -26,7 +26,9 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
                   [<img src="assets/2-channel_EMG_V1.png" width="400">](assets/2-channel_EMG_V1.png)
                   [<img src="assets/Fidget_Layout.png" width="400">](assets/Fidget_Layout.png)
 - **Debug Log / Lessons Learned:**
-    - **Issue:** None yet, awaiting assembly.
+    - **Issue:** Button is not readable.
+    - **Root Cause:** Self-assembly at hot-air bench was not sufficient for making electrical contact between the nRF5240 Module and the related button detection GPIO.
+    - **Resolution:** Solder reflow with hot plate and hot air created the proper reflow profile at the module GPIO pin.
     - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. WIrelessly connect to applications.
 
 #### Status

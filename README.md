@@ -5,7 +5,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 ---
 
 ## 🛠 Skills & Competencies
-* **PCB Design:** KiCad (Schematic Capture, Layout, DFM)
+* **PCB Design:** KiCad, Altium Designer(Schematic Capture, Layout, DFM)
 * **Embedded Systems:** nRF5340, STM32WB, BLE Firmware integration
 * **Analog/Mixed Signal:** ECG/EMG AFE designs, Audio/Optical systems
 * **Instrumentation:** Oscilloscopes, Multimeters, Logic Analyzers

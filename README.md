@@ -8,13 +8,53 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 * **PCB Design:** KiCad, Altium Designer (Schematic Capture, Layout, DFM)
 * **Embedded Systems:** nRF5340, STM32WB, BLE Firmware integration
 * **Analog/Mixed Signal:** ECG/EMG AFE designs, Audio/Optical systems
-* **Instrumentation:** Oscilloscopes, Multimeters, Logic Analyzers
+* **Mechanical Design:** SOLIDWORKS, 3D printing
 
 ---
 
 ## 🚀 Featured Projects
+### 1. Forehead EEG device for tracking focus and stress throughout the day.
+*First version of a device for monitoring day-to-day activity to become aware of triggers of stress and gaps in focus to attempt to make myself more efficient*
 
-### 1. Wearable EMG sticker for wireless performance tracking and muscle asymmetry
+#### Overview
+- **Objective:** Design a wireless EEG to enable any user to access focus trends.
+- **Key Components:** TI ADS1299, nRF5340 MDBT53V-1M SOC, USB, rechargeable Li-Ion battery, nickel-free gold electrodes.
+
+#### Engineering Process
+- **Design Philosophy:** Focus on electrode placement to optimize skin coupling and signal acquisition. Additional processing can be done via DSP rather than hardware.
+<table>
+<tr>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_2D.png"><img src="assets/AX_EMG_REV1_2D.png" width="400"></a><br>
+  <sub>4-layer layout, 25 × 40 mm — top copper and silkscreen.</sub>
+</td>
+<td width="50%">
+  <a href="assets/AX_EMG_ARM_FAB.png"><img src="assets/AX_EMG_ARM_FAB.png" width="400"></a><br>
+  <sub>Flex electrode arm — nickel-free gold skin pad.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_FAB_TOP.png"><img src="assets/AX_EMG_REV1_FAB_TOP.png" width="400"></a><br>
+  <sub>Fabricated board, top — MAX86178 AFE, nRF5340 module, USB-C charging.</sub>
+</td>
+<td width="50%">
+  <a href="assets/AX_EMG_REV1_FAB_BOTTOM.png"><img src="assets/AX_EMG_REV1_FAB_BOTTOM.png" width="400"></a><br>
+  <sub>Fabricated board, bottom — electrode pad and battery contacts.</sub>
+</td>
+</tr>
+</table>
+
+
+- **Debug Log / Lessons Learned:**
+    - **Issue:** None yet, undergoing final stages of design review prior to manufacturing.
+    - **Future Iteration:** A more desirable and discreet location, maybe behind the head or ear.  
+
+#### Status
+- **Current Phase:** Undergoing final stages of design. A companion iOS app is in development in parallel.
+
+
+### 2. Wearable EMG sticker for wireless performance tracking and muscle asymmetry
 *Redesign of previous wearable design for a more flexible form factor across muscle groups*
 
 #### Overview
@@ -48,13 +88,15 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 
 
 - **Debug Log / Lessons Learned:**
-    - **Issue:** None yet, in transit after fabrication.
-    - **Future Iteration:** Improve flexibility by making the entire board a flex PCB with rigid fills as needed for BGA components.
+    - **Issue:** AFE component fails to communicate over SPI. 
+    - **Root Cause:** 0.15mm vias underneath a fragile BGA component were wicking solder away from the component, preventing continuity. Attempted to replace the component with no luck. 
+    - **Resolution:** Tented vias to prevent solder wicking into holes. 
+    - **Future Iteration:** Considering not using an expensive and sensitive AFE chip and designing my own AFE instead. 
 
 #### Status
-- **Current Phase:** In transit from manufacturer, needs bring-up and verification. A companion iOS app is in development in parallel.
+- **Current Phase:** In freeze. Lessons learned from this revision have been logged and are being carried into newer designs.
 
-### 2. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
+### 3. Wearable 2-channel EMG with gyroscope & buzzer for real-time bio-feedback
 *An initial prototype of a neural-feedback system for reading movement/muscle data and notifying the user of biomechanical events*
 
 #### Overview
@@ -68,14 +110,14 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 - **Debug Log / Lessons Learned:**
     - **Issue:** Button is not readable.
     - **Root Cause:** Self-assembly at hot-air bench was not sufficient for making electrical contact between the nRF5240 Module and the related button detection GPIO.
-    - **Resolution:** Solder reflow with hot plate and hot air created the proper reflow profile at the module GPIO pin.
+    - **Resolution:** Solder reflow with hot plate and hot air created the proper reflow profile at the module GPIO pin. The system became fully functional.
     - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. WIrelessly connect to applications.
 
 #### Status
-- **Current Phase:** Design verified to ensure functionality before intended final revision.
+- **Current Phase:** Design verified to be fully functional. This board is now being used to develop iOS apps for other designs using the same nRF architectures.
 
 
-### 3. FFT-Based LED Strip Controller
+### 4. FFT-Based LED Strip Controller
 *A compact, wall outlet compatible device for creating dynamic, color changing LED's that travel across the entire length of an LED Strip.*
 
 #### Overview
@@ -96,7 +138,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 - **Current Phase:** Power/digital architecture validated. AFE and firmware validated on breadboard for full LED control. Redesign to relocate via and pour profile.
 
 
-### 4. Wireless EMG Wearable
+### 5. Wireless EMG Wearable
 *A compact, low-power wearable device for EMG signal acquisition.*
 
 #### Overview

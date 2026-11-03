@@ -25,24 +25,12 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 <table>
 <tr>
 <td width="50%">
-  <a href="assets/AX_EMG_REV1_2D.png"><img src="assets/AX_EMG_REV1_2D.png" width="400"></a><br>
+  <a href="assets/EEG_Electrodes.png"><img src="assets/EEG_Electrodes.png" width="400"></a><br>
   <sub>4-layer layout, 25 × 40 mm — top copper and silkscreen.</sub>
 </td>
 <td width="50%">
-  <a href="assets/AX_EMG_ARM_FAB.png"><img src="assets/AX_EMG_ARM_FAB.png" width="400"></a><br>
+  <a href="assets/EEG_TOP_VIEW.png"><img src="assets/EEG_TOP_VIEW.png" width="400"></a><br>
   <sub>Flex electrode arm — nickel-free gold skin pad.</sub>
-</td>
-</tr>
-<tr>
-<td width="50%">
-  <a href="assets/AX_EMG_REV1_FAB_TOP.png"><img src="assets/AX_EMG_REV1_FAB_TOP.png" width="400"></a><br>
-  <sub>Fabricated board, top — MAX86178 AFE, nRF5340 module, USB-C charging.</sub>
-</td>
-<td width="50%">
-  <a href="assets/AX_EMG_REV1_FAB_BOTTOM.png"><img src="assets/AX_EMG_REV1_FAB_BOTTOM.png" width="400"></a><br>
-  <sub>Fabricated board, bottom — electrode pad and battery contacts.</sub>
-</td>
-</tr>
 </table>
 
 

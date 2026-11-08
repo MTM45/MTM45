@@ -26,11 +26,11 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 <tr>
 <td width="50%">
   <a href="assets/EEG_Electrodes.png"><img src="assets/EEG_Electrodes.png" width="400"></a><br>
-  <sub>4-layer layout, 25 × 40 mm — top copper and silkscreen.</sub>
+  <sub>4-layer layout, flexible PCB with rigid sections for components.</sub>
 </td>
 <td width="50%">
   <a href="assets/EEG_TOP_VIEW.png"><img src="assets/EEG_TOP_VIEW.png" width="400"></a><br>
-  <sub>Flex electrode arm — nickel-free gold skin pad.</sub>
+  <sub>Skin-contacting side with electrode spacing accommodating my own measurements. The tail will be the reference electrode going behind the earlobe.</sub>
 </table>
 
 

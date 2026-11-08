@@ -97,7 +97,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
                   [<img src="assets/Fidget_Layout.png" width="400">](assets/Fidget_Layout.png)
 - **Debug Log / Lessons Learned:**
     - **Issue:** Button is not readable.
-    - **Root Cause:** Self-assembly at hot-air bench was not sufficient for making electrical contact between the nRF5240 Module and the related button detection GPIO.
+    - **Root Cause:** Self-assembly at hot-air bench was not sufficient for making electrical contact between the nRF5340 Module and the related button detection GPIO.
     - **Resolution:** Solder reflow with hot plate and hot air created the proper reflow profile at the module GPIO pin. The system became fully functional.
     - **Future Iteration:** Significantly reduce form factor to fit in mechanical housing and support adhesion to various body locations. WIrelessly connect to applications.
 
@@ -119,7 +119,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
     - **Issue:** Could detect target device when programming, but could not flash to the core.
     - **Root Cause:** Inadequate pad-to-pour clearance in the initial layout - short between GND and SWDCLK.
       [<img src="assets/LED1_short.png" width="400">](assets/LED1_short.png)
-    - **Resolution:** Validated via continuity testing.
+    - **Resolution:** Validated design issues via continuity testing.
     - **Future Iteration:** Relocate GND via near SWDCLK on MDBT53-1M pads, reduce GND pour coverage near pads.
 
 #### Status
@@ -144,7 +144,7 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 - **Debug Log / Lessons Learned:**
     - **Issue:** Encountered configuration issues when setting up STM32WB through STM32CubeIDE.
     - **Root Cause:** Inadequate reflow on STM32 during assembly.
-    - **Resolution:** Validated via continuity testing.
+    - **Resolution:** Confirmed reflow issues with continuity testing.
     - **Future Iteration:** Design around reflow, select another chip.
 
 

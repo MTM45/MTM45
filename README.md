@@ -31,6 +31,8 @@ Hardware Design Engineer focused on wearable sensor integration and PCB design. 
 <td width="50%">
   <a href="assets/EEG_TOP_VIEW.png"><img src="assets/EEG_TOP_VIEW.png" width="400"></a><br>
   <sub>Skin-contacting side with electrode spacing accommodating my own measurements. The tail will be the reference electrode going behind the earlobe.</sub>
+</td>
+</tr>
 </table>
 
 
